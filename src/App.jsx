@@ -1,7 +1,9 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Simple from './Form/Simple'
+import Form from './Form/Form'
+// import Simple from './Form/Simple'
+
 
 
 // import Home from './React-Router-Dom/Home'
@@ -135,7 +137,8 @@ function App() {
 
 
       {/* -----Form----- */}
-      <Simple/>
+      {/* <Simple/> */}
+      <Form/>
     </>
   )
 }
