@@ -1,0 +1,71 @@
+/* Center the form */
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Each form field wrapper */
+form div {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0,123,255,0.3);
+}
+
+/* Radio buttons container */
+form div label {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+/* Error text */
+p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: red;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+}

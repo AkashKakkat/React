@@ -1,7 +1,19 @@
 
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Form from './Form/Form'
+import Circle from './REDUX/Circle'
+// import DarkTheme from './REDUX/DarkTheme'
+// import Counter from './REDUX/Counter'
+
+
+// import BasicHookForm from './Form/React-Hook-Form/BasicHookForm'
+// import AxiosPut from './Axios/AxiosPut'
+// import AxiosPost from './Axios/AxiosPost'
+// import CrudSession from './LocalStorage/CrudSession'
+// import AxiosGet from './Axios/AxiosGet'
+// import Form from './Form/Form'
+// import FormValidation from './Task/FormValidation'
+// import Crud from './LocalStorage/Crud'
 // import Simple from './Form/Simple'
 
 
@@ -131,6 +143,8 @@ function App() {
 
       <Footer/> */}
 
+      {/* <FormValidation/> */}
+
       {/* ----react-keys---- */}
       {/* <Items/> */}
       {/* <AllProducts/> */}
@@ -138,7 +152,29 @@ function App() {
 
       {/* -----Form----- */}
       {/* <Simple/> */}
-      <Form/>
+      {/* <Form/> */}
+
+
+      {/* ------Local Storage */}
+      {/* <Crud/> */}
+      {/* <CrudSession/> */}
+
+    
+
+      {/* ------Axios------ */}
+      {/* <AxiosGet/> */}
+      {/* <AxiosPost/> */}
+      {/* <AxiosPut/> */}
+
+      {/* ---------React Form-------- */}
+      {/* <BasicHookForm/> */}
+
+      {/*------ Redux------ */}
+      {/* <Counter /> */}
+      {/* <DarkTheme/> */}
+      <Circle/>
+      
+      
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './FormStyle.css'
+import './FormValidation.css'
 
-const Form = () => {
+const FormValidation = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -86,8 +86,8 @@ const Form = () => {
 
         }
     }
-
     return (
+
         <form onSubmit={handleSubmit}>
             {/* name */}
             <div>
@@ -153,4 +153,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default FormValidation
